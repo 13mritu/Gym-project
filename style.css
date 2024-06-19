@@ -72,68 +72,77 @@
 } */
 /* styles.css */
 
-/* body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  margin: 0;
-  background-color: #f0f0f0;
-} */
+.carousel-container {
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+}
 
 .carousel {
-    position: relative;
-    width: 100vw;
-    overflow: hidden;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  }
-  
-  .carousel-inner {
-    display: flex;
-    transition: transform 0.5s ease;
-  }
-  
-  .carousel-item {
-    min-width: 100vw;
-  }
-  
-  .carousel-item img {
-    width: 100vw;
-    height: 70vh;
-    
-  }
-  
-  .carousel-control {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    border: none;
-    font-size: 2em;
-    padding: 10px;
-    cursor: pointer;
-    z-index: 1;
-  }
-  
-  .carousel-control.prev {
-    left: 10px;
-  }
-  
-  .carousel-control.next {
-    right: 10px;
-  }
-  main{
-    overflow: hidden;
-  }
-.head2 h3{
-    
-    font-size: 40px;
-    font-family: cursive;
+  display: flex;
+  transition: transform 0.5s ease;
 }
-.head2 h1{
-    font-size: 70px;
+
+.carousel-item {
+  min-width: 100%;
+  position: relative;
 }
+
+.carousel-item img {
+  width: 100%;
+  height: auto;
+}
+
+.overlay h3{
+    
+  font-size: 30px;
+  font-family: cursive;
+}
+.overlay h1{
+  font-size: 50px;
+}
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: start;
+  width: max-content;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.prev {
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 3px 0 0;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+   
+
 .btn{
     margin-top: 100px;
     padding: 20px;
