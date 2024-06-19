@@ -8,15 +8,17 @@
 }
 .header
 {
+
     display: flex;
     flex-direction:row;
     justify-content: space-between;
     padding: 10px;
-    background-color: none;
-    top: 0px;
-    left: 0px;
+    background: rgba(0, 0, 0, 0.1);
+    position: fixed;
     width: 100%;
-    background-color:black;
+    top: 0;
+    left: 0;
+    z-index: 100;
     
 }
 .logo{
