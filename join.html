@@ -1,0 +1,32 @@
+!<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Join Now Modal</title>
+  <link rel="stylesheet" href="join.css">
+</head>
+<body>
+  <!-- Button to Open the Modal -->
+  <button id="openModalBtn" class="open-modal-btn">Join Now</button>
+
+  <!-- The Modal -->
+  <div id="joinModal" class="modal">
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Join Now</h2>
+      <p>Enter your details to join our community.</p>
+      <form id="joinForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <button type="submit" class="submit-btn">Submit</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="join.js"></script>
+</body>
+</html>
