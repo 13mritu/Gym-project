@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 let ci = 0;
 
-function showSlide(index) {
+function showSlide1(index) {
   const slides = document.querySelectorAll('.team-image');
   const totalSlides = Math.ceil(slides.length / 3);
 
@@ -82,6 +82,6 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 function currentSlide(index) {
-  showSlide(index);
+  showSlide1(index);
 }
 
