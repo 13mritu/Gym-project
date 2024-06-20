@@ -663,6 +663,14 @@ body{
     background: black;
   }
   
+  .album > h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 40px;
+    font-size: 50px;
+  }
   .album .responsive-container-block.bg {
     max-width: 1320px;
     margin: 0 0 0 0;
