@@ -13,7 +13,7 @@
     flex-direction:row;
     justify-content: space-between;
     padding: 10px;
-    background: rgba(0, 0, 0, 0.1);
+    background: rgba(0, 0, 0, 0.8);
     position: fixed;
     width: 100%;
     top: 0;
@@ -99,9 +99,13 @@
     
   font-size: 30px;
   font-family: cursive;
+  transition: all 0.4s ease 0.4s;
+    opacity: 1;
 }
 .overlay h1{
   font-size: 50px;
+  transition: all 0.4s ease 0.4s;
+    opacity: 1;
 }
 .overlay {
   position: absolute;
