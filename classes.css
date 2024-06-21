@@ -1,18 +1,130 @@
-*{
+*
+{
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
     text-decoration: none;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
 }
+.header
+{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: aliceblue;
 
+}
+.navbar{
+    padding-top: 25px;
+    gap: 30px;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+
+}
+.navbar a{
+    font-size: 20px;
+    gap: 10px;
+    color: black;
+    font-weight: bold;
+}
+.navbar a:hover{
+  cursor: pointer;
+  color: orangered;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold; 
+  font-display: block;
+  
+}
+.loc{
+    display: flex;
+    gap: 10px;
+    
+    background-color: yellow;
+    width: 200px;
+}
+.loc img{
+  padding-top: 24px;  
+  height:62px ;
+    width: 40px;
+}
+.loc h3{
+    padding-top: 25px;
+}
+.about
+{
+    background-image: url(assest/header.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35vh;
+    width:100vw ;
+}
+.about h1{
+    color: azure;
+    font-size: 60px;
+    text-decoration: underline yellow;
+}
+.service
+{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+    background-color:white;
+    color: aliceblue;
+}
+.container
+{
+   
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    /* used for number rows/columns*/
+    gap: 60px;
+}
+.box{
+    padding: 10px;
+    height: 300px;
+    width: 250px;
+    background-color:whitesmoke;
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid black; */
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    gap:10px;
+}
+.box img{
+  height: 80px;
+  width: 70px;
+}
+.box:hover{
+    background-color: aliceblue;
+}
+.bx{
+font-size: 40px;
+}
+.btn2{
+    margin-top: 30px;
+    padding:5px;
+    border:solid 2px yellow;
+}
+.btn2:hover{
+  cursor: pointer;
+  background-color: yellow;
+  /* color: white; */
+}
 .plan{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* background-color: rgb(21, 21, 21); */
-    background-image:url(assest/pricing-bg.jpg);
+    background-color: rgb(21, 21, 21);
     gap: 15px;
     height: 120vh;
 }
@@ -97,52 +209,12 @@
     cursor: pointer;
    background-color:rgb(61, 202, 30) ; 
 }
-.plan-btn
-{
-    margin-top: 20px;
-    padding: 2px;
-    font-weight: bold;
-    background-color: yellow;
-    
-}
-.hero{
-    padding-top: 60px;
-
-}
-.container{
- display: flex;
- flex-direction: row;
- justify-content: center;
- align-items: center;
- gap: 40px;
-}
-.box{
- width: 500px;
- display: flex;
- flex-direction: column;
- justify-content:start;
- align-items:start;
- padding-top: 40px;
-}
-.box h2{
-    background-color: yellow;
-    font-size: 45px;
-}
-.box h1{
-    font-size: 45px;
-}
-.box p{
-    font-size: 25px;
-}
-.btn{
-
-    margin-top: 40px;
-    padding: 10px;
-    font-weight: bold;
-    background-color: yellow;
-    margin-left: 150px;
-    border: none;
-    margin-bottom:20px ;
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-decoration: none;
 }
 .news
 {

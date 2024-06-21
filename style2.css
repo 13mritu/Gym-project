@@ -29,6 +29,14 @@
     color: black;
     font-weight: bold;
 }
+.navbar a:hover{
+  cursor: pointer;
+  color: orangered;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold; 
+  font-display: block;
+  
+}
 .loc{
     display: flex;
     gap: 10px;
