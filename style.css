@@ -410,29 +410,37 @@ body{
           transform: skewX(-10deg);
     }
 } */
-.plan-box{
-    /* position: relative; */
-    /* top: 50px;
-    left: 40px; */
-    gap: 15px;
-    align-items: center;
-    border: solid 1px whitesmoke;
-        /* background:rgb(169, 29, 58); */
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        color: rgb(238, 238, 238);
-        height: 80vh;
-        width: 25vw;
-        margin-top: 30px;
-        padding: 0.24em 0.3em 0.25em;
-        -webkit-transform: skewX(-10deg);
-          -moz-transform: skewX(-10deg);
-          -ms-transform: skewX(-10deg);
-          transform: skewX(-10deg);
+.plan-box {
+  gap: 15px;
+  align-items: center;
+  border: solid 2px whitesmoke;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: rgb(238, 238, 238);
+  height: 70vh;
+  width: 15vw;
+  margin-top: 30px;
+  padding: 0.24em 0.3em 0.25em;
+  -webkit-transform: skewX(-10deg);
+  -moz-transform: skewX(-10deg);
+  -ms-transform: skewX(-10deg);
+  transform: skewX(-10deg);
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for background and color */
 }
+
+.plan-box li {
+  list-style: none;
+}
+
+.plan-box:hover {
+  cursor: pointer;
+  background-color: white; /* Change background to white on hover */
+  color: black; /* Change text color to black on hover */
+}
+
 .plan-text h2{
-  color: rgb(255, 255, 255);
+ 
   font-size: 28px;
   line-height: 34px;
   font-weight: 600;
@@ -457,7 +465,7 @@ body{
   font-size: 16px;
   line-height: 24px;
   font-weight: 700;
-  color: rgb(255, 255,255) ;
+ 
 }
 .list
 {
@@ -466,7 +474,7 @@ body{
   font-size: 14px;
   line-height: 32px;
   font-weight: 600;
-  color:rgb(255, 255, 255)  ;
+
 }
 .plan-btn
 {
@@ -474,14 +482,8 @@ body{
   padding: 9px 67px;
   background-color: rgb(35, 35, 35);
 }
-.plan-box li{
-    list-style: none;
 
-}
-.plan-box:hover{
-    cursor: pointer;
-   background-color:rgb(61, 202, 30) ; 
-}
+
 *{
     margin: 0px;
     padding: 0px;
