@@ -450,7 +450,7 @@ body{
   flex-direction: column;
   color: rgb(238, 238, 238);
   height: 70vh;
-  width: 15vw;
+  width: 22vw;
   margin-top: 30px;
   padding: 0.24em 0.3em 0.25em;
   -webkit-transform: skewX(-10deg);
@@ -667,9 +667,9 @@ body{
   /* transform: translate(-50%, -50%); */
   /* max-width: 1280px; */
   width: 100%;
-  /* background: #10182F; */
-  background-image: url(assest/footer-bg.jpg);
-  height: 45vh;
+  background: #10182F;
+  /* background-image: url(assest/footer-bg.jpg); */
+  height: 56vh;
   /* border-radius: 6px; */
 }
 .footer .footer-row {
@@ -741,7 +741,7 @@ body{
 }
 .footer-col .icons {
   display: flex;
-  margin-top: 30px;
+  margin-top: 2px;
   gap: 30px;
   cursor: pointer;
 }
@@ -1123,7 +1123,7 @@ body{
     left: -13px;
   }
   
-  form {
+  form{
     padding: 2.3rem 2.2rem;
     z-index: 10;
     overflow: hidden;
