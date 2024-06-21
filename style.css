@@ -299,7 +299,9 @@ body{
     align-items: center;
     background-color:rgb(10, 10, 10);
     gap: 15px;
-    height: 80vh;
+    /* border: 2px solid white; */
+    background-color: rgb(15,0,0);
+    padding-top: 80px;
 }
 .box img{
     height: 100px;
@@ -307,20 +309,18 @@ body{
     background-color:rgb(35, 35, 35);
     border-radius: 60px;
     color: orange;
-    
 }
 .service h3{
     color: aliceblue;
 }
-.why
+.service .why h2
 {
   font-family:Muli, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 24px;
-  color:
-  rgb(243, 97, 0) ;
+  color:  rgb(243, 97, 0) ;
 }
 .service h1{
   color: rgb(255, 255, 255);
@@ -333,8 +333,7 @@ body{
     /* border: solid 2px rgb(239, 54, 54); */
     display: flex;
     gap:15px;
-    margin-top: 25px;
-    padding-top: 25px;
+    /* height: fit-content; */
 }
 .box{
     /* border: solid 2px white; */
@@ -1068,7 +1067,6 @@ body{
   .container {
     position: relative;
     width: 100%;
-    min-height: 100vh;
     padding: 2rem;
     background-color: #0f0000;
     overflow: hidden;
