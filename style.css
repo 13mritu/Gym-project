@@ -514,21 +514,6 @@ body{
   padding: 9px 67px;
   background-color: rgb(35, 35, 35);
 }
-.plan-box li{
-    list-style: none;
-
-}
-.plan-box:hover{
-    cursor: pointer;
-   background-color:rgb(61, 202, 30) ; 
-}
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-    text-decoration: none;
-}
 .card{
     display: flex;
     flex-direction: column;
